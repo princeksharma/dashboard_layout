@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import { Button, Input, Row, Col, Form } from 'antd';
 import { Formik } from 'formik';
 import * as Yup from 'yup';
-import {connect} from 'react-redux'
+//import {connect} from 'react-redux'
 
 const formItemLayout = {
   labelCol: {

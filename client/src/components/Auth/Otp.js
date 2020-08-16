@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Form ,Input } from 'antd';
 
 const Otp = () => {
     return (

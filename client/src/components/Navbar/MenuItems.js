@@ -1,7 +1,7 @@
 import React from 'react';
 import { Menu } from 'antd';
 import Login from '../Auth/Login';
-import Register from '../Auth/Register';
+import RegisterLayout from '../Auth/RegisterLayout';
 
 const MenuItems = (props) => {
     return (
@@ -11,7 +11,7 @@ const MenuItems = (props) => {
                     <Menu.Item>Instant Apply</Menu.Item>
                     <Menu.Item>Pricing</Menu.Item>
                     <Menu.Item>About us</Menu.Item>
-                    <Menu.Item key="register"><Register/></Menu.Item>
+                    <Menu.Item key="register"><RegisterLayout/></Menu.Item>
                     <Menu.Item key="login"><Login/></Menu.Item>
             </Menu>
         </div>
